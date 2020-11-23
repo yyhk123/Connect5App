@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:id="@+id/content">
+
+    <GridLayout
+        android:id="@+id/linMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:columnCount="2"
+        android:rowCount="1"
+        >
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="#EDEDED"
+            android:gravity="center"
+            android:text="Home"
+            android:layout_marginRight="0.1dp"
+            />
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="#EDEDED"
+            android:gravity="center"
+            android:text="Restart"
+            android:layout_marginLeft="0.1dp"
+            />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linBoardGame"
+        android:orientation="vertical"
+        android:layout_below="@+id/linMenu"
+        />
+    
+
+
+
+</RelativeLayout>
