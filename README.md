@@ -7,7 +7,7 @@ Connect 5 game app, plays against AI
   - Design helped from [here](https://www.youtube.com/watch?v=tFilQ48HR08&t=647s)
   
 
-[#Google playstore Link](https://play.google.com/store/apps/details?id=com.min.connect4)
+[Google playstore Link](https://play.google.com/store/apps/details?id=com.min.connect4)
 
 
 ## Dificulties
